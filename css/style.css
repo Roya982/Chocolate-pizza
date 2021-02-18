@@ -56,10 +56,11 @@
 #thirdsec{
     background-image: url(../img/list-bg.png);
     background-position: center;
-    height: 200px;
+    height: 250px;
     background-repeat: no-repeat; 
     background-size: cover;
     margin: 70px;
+    width: 90%;
 }
 
 #first-column{
@@ -72,9 +73,16 @@
     width: 50%;
 }
 
+
+
 .list{
-    display: list-item;
+    display: table-cell;
+
+    padding-right: 10px;
+  
+    white-space: nowrap;
 }
+
 
 .share {
     color: white;
