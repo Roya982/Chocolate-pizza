@@ -10,6 +10,15 @@
     margin: 20px;
 }
 
+#separeator{
+    background-image: url(../img/hr-img.png);
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    height: 50px;
+    margin: 30px;
+    margin-top: 60px;
+}
+
 .subtitle{
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: small;
@@ -47,6 +56,8 @@
 
 .recip{
     text-align: left;
+    font-size: large;
+    margin: 20px;
 }
 
 #secondsec{
@@ -105,6 +116,14 @@
     line-height: 1.5em;
     margin-top: 5em;
     text-align: center;
+}
+
+#idk{
+    float: inline-start;
+}
+
+#profile{
+    float: left;
 }
 
 .line-footer1 {
